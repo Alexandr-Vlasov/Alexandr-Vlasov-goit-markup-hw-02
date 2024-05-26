@@ -58,7 +58,7 @@ a {
 /*------------------------------- */
 
 /*----------- contacts------------ */
-adress {
+.contacts {
     font-style: normal
 }
 
@@ -76,7 +76,7 @@ adress {
 }
 
 .email:focus {
-    color: #404BBF;
+    color: #404bbf;
 }
 
 .tel {
@@ -166,7 +166,7 @@ adress {
 /*----------- team --------------- */
 
 .team {
-    background-color: #F4F4FD;
+    background-color: #FFFFFF;
 }
 
 .team-title {
@@ -177,8 +177,7 @@ adress {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
-    background-color: #FFFFFF
-}
+   }
 
 .team-list {}
 
