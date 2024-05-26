@@ -47,11 +47,11 @@ a {
     color: #404BBF;
 }
 
-#Studio:active {
+.header-menu-link:active {
     color: #404BBF;
 }
 
-#Studio:focus {
+.header-menu-link:focus {
     color: #404bbf;
 }
 
@@ -166,7 +166,7 @@ a {
 /*----------- team --------------- */
 
 .team {
-    background-color: #FFFFFF;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -177,6 +177,7 @@ a {
     text-align: center;
     color: #2E2F42;
     text-transform: capitalize;
+    background-color: #FFFFFF;
    }
 
 .team-list {}
