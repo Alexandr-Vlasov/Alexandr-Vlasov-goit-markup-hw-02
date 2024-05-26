@@ -1,6 +1,7 @@
 body {
-    font-family: roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 ul {
@@ -11,28 +12,26 @@ a {
     text-decoration: none;
 }
 
-body {
-    font-family: roboto, sans-serif;
-}
 
 /*----------- header------------ */
 
 .header {
     background-color: #E7E9FC;
 }
+
 .header-logo {
-    font-family: Raleway, sans-serif;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
         text-transform: uppercase;
-        color: #2E2F42;
+        color: #4D5AE5;
 }
 
 .header-logo-color {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .header-menu-link {
@@ -48,18 +47,25 @@ body {
     color: #404BBF;
 }
 
-.header-menu-link:active {
+#Studio:active {
     color: #404BBF;
+}
+
+#Studio:focus {
+    color: #404bbf;
 }
 
 /*------------------------------- */
 
 /*----------- contacts------------ */
+adress {
+    font-style: normal
+}
 
 .email {
         font-size: 16px;
         font-weight: 400;
-        line-height: 1,5;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
         color: #434455;
@@ -67,6 +73,10 @@ body {
 
 .email:hover {
         color: #404BBF;
+}
+
+.email:focus {
+    color: #404BBF;
 }
 
 .tel {
@@ -80,6 +90,10 @@ body {
 }
 
 .tel:hover {
+    color: #404BBF;
+}
+
+.tel:focus {
     color: #404BBF;
 }
 
@@ -101,7 +115,7 @@ body {
 }
 
 .hero-btn {
-        font-family: inherit;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
@@ -113,6 +127,10 @@ body {
 }
 
 .hero-btn:hover {
+    background-color: #404BBF;
+}
+
+.hero-btn:focus {
     background-color: #404BBF;
 }
 
@@ -140,6 +158,7 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: left;
+        color: #434455;
 }
 
 /*------------------------------- */
@@ -157,6 +176,8 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
+    text-transform: capitalize;
+    background-color: #FFFFFF
 }
 
 .team-list {}
@@ -196,6 +217,7 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        text-transform: capitalize;
 }
 
 .portfolio-list {}
@@ -229,18 +251,18 @@ body {
 }
 
 .footer-logo {
-        font-family: Raleway; Sun-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-align: left;
         text-transform: uppercase;
-        color: #F4F4FD;
+        color: #4d5ae5;
 }
 
 .footer-logo-color {
-color: #4D5AE5;
+color: #f4f4fd;
 }
 
 .footer-text {
