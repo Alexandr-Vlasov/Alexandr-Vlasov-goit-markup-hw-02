@@ -62,7 +62,7 @@ a {
     font-style: normal
 }
 
-.email {
+.contacts-item {
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -71,30 +71,12 @@ a {
         color: #434455;
 }
 
-.email:hover {
+.contacts-item:hover {
         color: #404BBF;
 }
 
-.email:focus {
+.contacts-item:focus {
     color: #404bbf;
-}
-
-.tel {
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: left;
-        color: #434455;
-}
-
-.tel:hover {
-    color: #404BBF;
-}
-
-.tel:focus {
-    color: #404BBF;
 }
 
 /*------------------------------- */
