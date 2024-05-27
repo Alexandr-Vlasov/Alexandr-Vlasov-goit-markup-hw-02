@@ -162,7 +162,9 @@ a {
     
    }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+}
 
 .team-item {}
 
